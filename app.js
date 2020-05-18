@@ -18,3 +18,5 @@ logger.log("root: ", rootDir);
 fs.readdir('./', (err, files) => {
     (err) ? console.log(err) : console.log(files);
 })
+
+console.log(rootDir);
